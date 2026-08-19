@@ -1,3 +1,17 @@
+/**
+ * Problem: Min Stack / Get Minimum Element from Stack (LeetCode #155)
+ * 
+ * Description:
+ * Design a stack that supports push, pop, top, and retrieving the minimum element in constant O(1) time.
+ * 
+ * Approach:
+ * Uses an auxiliary `minStack` alongside the main `stack`. On push, `minStack` pushes the minimum
+ * between the new value and the current top of `minStack`. On pop, both stacks are popped together.
+ * 
+ * Time Complexity: O(1) for push, pop, top, and getMin
+ * Space Complexity: O(N)
+ */
+
 import java.util.Stack;
 
 public class StackGetMin {

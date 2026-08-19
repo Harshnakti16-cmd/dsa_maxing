@@ -1,5 +1,17 @@
-// Problem : Leetcode #83
-
+/**
+ * Problem: Convert Binary Number in a Linked List to Integer (LeetCode #1290)
+ * 
+ * Description:
+ * Given `head` which is a reference node to a singly-linked list where each node contains
+ * a binary digit (0 or 1), return the decimal value of the binary number represented by the list.
+ * 
+ * Approach:
+ * Iterates through the linked list, shifting the accumulated result left by multiplying by 2
+ * and adding the current node's value (`result = result * 2 + current.data`).
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(1)
+ */
 public class BinaryToInteger {
 
     static class Node {
