@@ -1,3 +1,5 @@
+package arrays;
+
 /**
  * Problem: Merge Sorted Array (LeetCode #88 variant)
  * 

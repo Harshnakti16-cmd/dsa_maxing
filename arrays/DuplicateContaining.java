@@ -1,3 +1,5 @@
+package arrays;
+
 /**
  * Problem: Contains Duplicate / Find First Duplicate Element (LeetCode #217 variant)
  * 

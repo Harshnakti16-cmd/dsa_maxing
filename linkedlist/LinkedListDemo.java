@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * Topic: Singly Linked List Basics & Traversal
  * 

@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * Problem: Intersection of Two Linked Lists (LeetCode #160)
  * 

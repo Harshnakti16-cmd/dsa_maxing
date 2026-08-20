@@ -1,3 +1,5 @@
+package arrays;
+
 /**
  * Problem: Binary Search (LeetCode #704)
  * 

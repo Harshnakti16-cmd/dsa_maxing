@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * Problem: Middle of the Linked List (LeetCode #876)
  * 

@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * Problem: Linked List Cycle (LeetCode #141)
  * 

@@ -1,3 +1,5 @@
+package arrays;
+
 /**
  * Problem: Two Sum - Optimal Approach (LeetCode #1)
  * 
