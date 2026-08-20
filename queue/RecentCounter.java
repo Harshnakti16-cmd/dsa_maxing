@@ -1,3 +1,4 @@
+
 /**
  * Problem: Number of Recent Calls (LeetCode #933)
  * 
@@ -36,10 +37,10 @@ public class RecentCounter {
 
         RecentCounter counter = new RecentCounter();
 
-        System.out.println(counter.ping(100));
-        System.out.println(counter.ping(200));
-        System.out.println(counter.ping(300));
-        System.out.println(counter.ping(3000));
-        System.out.println(counter.ping(3500));
+        System.out.print(counter.ping(100) + " ");
+        System.out.print(counter.ping(200) + " ");
+        System.out.print(counter.ping(300) + " ");
+        System.out.print(counter.ping(3000) + " ");
+        System.out.print(counter.ping(3500) + " ");
     }
 }
