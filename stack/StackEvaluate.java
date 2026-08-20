@@ -1,4 +1,3 @@
-package stack;
 
 /**
  * Problem: Evaluate Reverse Polish Notation / Postfix Evaluation (LeetCode #150)

@@ -1,4 +1,3 @@
-package arrays;
 
 /**
  * Problem: Best Time to Buy and Sell Stock with Buy/Sell Details (LeetCode #121 variant)

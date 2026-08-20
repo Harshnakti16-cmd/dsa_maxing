@@ -1,4 +1,3 @@
-package linkedlist;
 
 /**
  * Problem: Reverse Linked List (LeetCode #206)

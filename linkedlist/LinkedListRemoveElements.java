@@ -1,4 +1,3 @@
-package linkedlist;
 
 /**
  * Problem: Remove Linked List Elements (LeetCode #203)

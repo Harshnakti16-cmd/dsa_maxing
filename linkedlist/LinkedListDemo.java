@@ -1,14 +1,15 @@
-package linkedlist;
 
 /**
  * Topic: Singly Linked List Basics & Traversal
  * 
  * Description:
- * Demonstrates basic creation of custom Singly Linked List nodes (`Node`), linking nodes together sequentially,
+ * Demonstrates basic creation of custom Singly Linked List nodes (`Node`),
+ * linking nodes together sequentially,
  * and traversing through the linked list to print each node reference.
  * 
  * Approach:
- * Creates nodes manually, updates their `next` references, and iterates using a pointer until reaching `null`.
+ * Creates nodes manually, updates their `next` references, and iterates using a
+ * pointer until reaching `null`.
  * 
  * Time Complexity: O(N) for traversal
  * Space Complexity: O(1) auxiliary space

@@ -1,4 +1,3 @@
-package arrays;
 
 /**
  * Problem: Valid Palindrome (LeetCode #125)

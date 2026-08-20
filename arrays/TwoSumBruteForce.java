@@ -1,4 +1,3 @@
-package arrays;
 
 /**
  * Problem: Two Sum - Brute Force Approach (LeetCode #1)

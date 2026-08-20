@@ -1,4 +1,3 @@
-package stack;
 
 /**
  * Problem: Min Stack / Get Minimum Element from Stack (LeetCode #155)

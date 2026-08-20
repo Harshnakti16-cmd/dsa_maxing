@@ -1,15 +1,17 @@
-package linkedlist;
-
 /**
  * Problem: Linked List Cycle (LeetCode #141)
  * 
  * Description:
- * Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
- * A cycle exists if there is some node in the list that can be reached again by continuously following the `next` pointer.
+ * Given `head`, the head of a linked list, determine if the linked list has a
+ * cycle in it.
+ * A cycle exists if there is some node in the list that can be reached again by
+ * continuously following the `next` pointer.
  * 
  * Approach:
- * Uses Floyd's Cycle-Finding Algorithm (Tortoise and Hare approach). Maintains two pointers (`slow` moving 1 step,
- * `fast` moving 2 steps). If there is a cycle, `slow` and `fast` will eventually meet (`slow == fast`).
+ * Uses Floyd's Cycle-Finding Algorithm (Tortoise and Hare approach). Maintains
+ * two pointers (`slow` moving 1 step,
+ * `fast` moving 2 steps). If there is a cycle, `slow` and `fast` will
+ * eventually meet (`slow == fast`).
  * 
  * Time Complexity: O(N)
  * Space Complexity: O(1)
