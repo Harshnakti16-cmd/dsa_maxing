@@ -1,4 +1,25 @@
 
+/**
+ * Problem: Implement Queue using Stacks (LeetCode #232)
+ * 
+ * Description:
+ * Implement a first-in-first-out (FIFO) queue using only two stacks. The implemented queue
+ * supports all standard queue operations: `enqueue` (push), `dequeue` (pop), `peek`, and `isEmpty`.
+ * 
+ * Approach:
+ * - Use two stacks: `stack1` for input and `stack2` for output.
+ * - `enqueue(x)`: Push element onto `stack1`.
+ * - `dequeue()` / `peek()`: Extract/view element from `stack2`. If `stack2` is empty, 
+ *   transfer all elements from `stack1` to `stack2` (which reverses their order to FIFO).
+ * 
+ * Time Complexity:
+ * - enqueue(x): O(1)
+ * - dequeue(): Amortized O(1)
+ * - peek(): Amortized O(1)
+ * - isEmpty(): O(1)
+ * 
+ * Space Complexity: O(N) overall to store N elements in the queue.
+ */
 import java.util.*;
 
 public class StackQueue {
