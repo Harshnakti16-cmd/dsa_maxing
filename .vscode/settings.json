@@ -4,6 +4,7 @@
         "queue",
         "stack",
         "linkedlist",
-        "hashmap"
+        "hashmap",
+        "hashset"
     ]
 }
