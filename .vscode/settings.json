@@ -3,6 +3,7 @@
         "arrays",
         "queue",
         "stack",
-        "linkedlist"
+        "linkedlist",
+        "hashmap"
     ]
 }
