@@ -1,4 +1,20 @@
 
+/**
+ * Problem: Group Anagrams (LeetCode #49)
+ * Difficulty: Medium
+ * 
+ * Description:
+ * Given an array of strings `arr`, group the anagrams together. You can return the answer in any order.
+ * An Anagram is a word formed by rearranging the letters of a different word, using all original letters exactly once.
+ * 
+ * Approach:
+ * For each string in `arr`, sort its characters to create a canonical `key` string.
+ * Store lists of anagrams in a `HashMap<String, List<String>>` keyed by the sorted string.
+ * Return all values of the map as a list of lists.
+ * 
+ * Time Complexity: O(N * K log K), where N is the number of strings and K is the maximum length of a string.
+ * Space Complexity: O(N * K)
+ */
 import java.util.*;
 
 public class GroupAnagrams {
