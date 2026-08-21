@@ -1,5 +1,6 @@
 /**
  * Problem: Linked List Cycle (LeetCode #141)
+ * Difficulty: Easy
  * 
  * Description:
  * Given `head`, the head of a linked list, determine if the linked list has a

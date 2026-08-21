@@ -1,6 +1,7 @@
 
 /**
  * Problem: Two Sum - Optimal Approach (LeetCode #1)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an array of integers `arr` and an integer `target`, return the indices of the two numbers such that

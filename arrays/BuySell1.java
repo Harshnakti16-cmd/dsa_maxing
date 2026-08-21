@@ -1,6 +1,7 @@
 
 /**
  * Problem: Best Time to Buy and Sell Stock (LeetCode #121)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an array `arr` where `arr[i]` represents the stock price on day `i`, find the maximum profit

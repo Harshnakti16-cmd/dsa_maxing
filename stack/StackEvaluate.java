@@ -1,6 +1,7 @@
 
 /**
  * Problem: Evaluate Reverse Polish Notation / Postfix Evaluation (LeetCode #150)
+ * Difficulty: Medium
  * 
  * Description:
  * Evaluate the value of an arithmetic expression in Reverse Polish Notation (RPN).

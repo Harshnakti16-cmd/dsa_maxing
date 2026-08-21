@@ -1,6 +1,7 @@
 
 /**
  * Problem: Implement Queue using Stacks (LeetCode #232)
+ * Difficulty: Easy
  * 
  * Description:
  * Implement a first-in-first-out (FIFO) queue using only two stacks. The implemented queue

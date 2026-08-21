@@ -1,6 +1,7 @@
 
 /**
  * Problem: Min Stack / Get Minimum Element from Stack (LeetCode #155)
+ * Difficulty: Medium
  * 
  * Description:
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant O(1) time.

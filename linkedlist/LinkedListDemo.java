@@ -1,6 +1,7 @@
 
 /**
  * Topic: Singly Linked List Basics & Traversal
+ * Difficulty: Easy
  * 
  * Description:
  * Demonstrates basic creation of custom Singly Linked List nodes (`Node`),

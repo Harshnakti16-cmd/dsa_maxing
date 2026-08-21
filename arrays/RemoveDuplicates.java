@@ -1,6 +1,7 @@
 
 /**
  * Problem: Remove Duplicates from Sorted Array (LeetCode #26)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an integer array `arr` sorted in non-decreasing order, remove the duplicates in-place

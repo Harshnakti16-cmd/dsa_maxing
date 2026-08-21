@@ -1,6 +1,7 @@
 
 /**
  * Problem: Remove Linked List Elements (LeetCode #203)
+ * Difficulty: Easy
  * 
  * Description:
  * Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list

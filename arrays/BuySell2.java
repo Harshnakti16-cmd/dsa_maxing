@@ -1,6 +1,7 @@
 
 /**
  * Problem: Best Time to Buy and Sell Stock with Buy/Sell Details (LeetCode #121 variant)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an array `arr` of stock prices, determine the maximum profit from a single transaction

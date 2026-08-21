@@ -1,6 +1,7 @@
 
 /**
  * Problem: Remove Duplicates from Sorted List (LeetCode #83)
+ * Difficulty: Easy
  * 
  * Description:
  * Given the `head` of a sorted linked list, delete all duplicates such that each element appears only once.

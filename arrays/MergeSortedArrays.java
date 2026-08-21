@@ -1,6 +1,7 @@
 
 /**
  * Problem: Merge Sorted Array (LeetCode #88 variant)
+ * Difficulty: Easy
  * 
  * Description:
  * Given two sorted integer arrays `num1` and `num2`, merge them into a single sorted result array.

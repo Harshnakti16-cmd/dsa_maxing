@@ -1,6 +1,7 @@
 
 /**
  * Problem: Binary Search (LeetCode #704)
+ * Difficulty: Easy
  * 
  * Description:
  * Given a sorted array of integers `arr` in ascending order and a target value

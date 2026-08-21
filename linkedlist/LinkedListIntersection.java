@@ -1,6 +1,7 @@
 
 /**
  * Problem: Intersection of Two Linked Lists (LeetCode #160)
+ * Difficulty: Easy
  * 
  * Description:
  * Given the heads of two singly linked lists `head1` and `head2`, return the node at which the two lists intersect.

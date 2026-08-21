@@ -1,6 +1,7 @@
 
 /**
  * Problem: Middle of the Linked List (LeetCode #876)
+ * Difficulty: Easy
  * 
  * Description:
  * Given the `head` of a singly linked list, return the middle node of the linked list.

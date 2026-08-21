@@ -1,6 +1,7 @@
 
 /**
  * Problem: Contains Duplicate / Find First Duplicate Element (LeetCode #217 variant)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an integer array `arr`, find and return the first element that appears at least twice in the array.

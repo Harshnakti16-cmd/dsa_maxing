@@ -1,6 +1,7 @@
 
 /**
  * Problem: Merge Two Sorted Lists (LeetCode #21)
+ * Difficulty: Easy
  * 
  * Description:
  * You are given the heads of two sorted linked lists `head1` and `head2`.

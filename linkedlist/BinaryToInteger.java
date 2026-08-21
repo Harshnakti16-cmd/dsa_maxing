@@ -1,6 +1,7 @@
 
 /**
  * Problem: Convert Binary Number in a Linked List to Integer (LeetCode #1290)
+ * Difficulty: Easy
  * 
  * Description:
  * Given `head` which is a reference node to a singly-linked list where each

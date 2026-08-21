@@ -1,5 +1,6 @@
 /**
  * Problem: Delete Node in a Linked List (LeetCode #237)
+ * Difficulty: Medium
  * 
  * Description:
  * Delete a given node in a singly-linked list without having access to the head

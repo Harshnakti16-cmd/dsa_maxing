@@ -1,6 +1,7 @@
 
 /**
  * Problem: Two Sum - Brute Force Approach (LeetCode #1)
+ * Difficulty: Easy
  * 
  * Description:
  * Given an array of integers `arr` and an integer `target`, return `true` if there exist two distinct indices `i` and `j`

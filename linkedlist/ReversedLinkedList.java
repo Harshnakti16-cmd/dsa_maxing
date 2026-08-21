@@ -1,6 +1,7 @@
 
 /**
  * Problem: Reverse Linked List (LeetCode #206)
+ * Difficulty: Easy
  * 
  * Description:
  * Given the `head` of a singly linked list, reverse the list, and return the reversed list head.

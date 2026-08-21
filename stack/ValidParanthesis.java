@@ -1,6 +1,7 @@
 
 /**
  * Problem: Valid Parentheses (LeetCode #20)
+ * Difficulty: Easy
  * 
  * Description:
  * Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`,

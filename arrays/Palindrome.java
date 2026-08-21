@@ -1,6 +1,7 @@
 
 /**
  * Problem: Valid Palindrome (LeetCode #125)
+ * Difficulty: Easy
  * 
  * Description:
  * Determine if a string `s` is a palindrome, considering alphanumeric characters and ignoring cases.
