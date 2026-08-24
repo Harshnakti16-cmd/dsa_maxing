@@ -5,6 +5,7 @@
         "stack",
         "linkedlist",
         "hashmap",
-        "hashset"
+        "hashset",
+        "basics"
     ]
 }
