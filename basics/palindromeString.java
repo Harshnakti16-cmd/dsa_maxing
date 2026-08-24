@@ -1,3 +1,16 @@
+/**
+ * Problem: Valid Palindrome String
+ * Difficulty: Easy
+ * 
+ * Description:
+ * Determine if a given string `s` is a palindrome (reads the same forward and backward).
+ * 
+ * Approach:
+ * Two Pointers (`left` at start, `right` at end). Compare characters moving inward. Return `false` on mismatch.
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(1)
+ */
 public class palindromeString {
 
     public static boolean isPalindrome(String s) {
