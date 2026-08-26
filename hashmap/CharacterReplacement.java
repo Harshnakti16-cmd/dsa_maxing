@@ -1,3 +1,21 @@
+
+/**
+ * Problem: Longest Repeating Character Replacement (LeetCode #424)
+ * Difficulty: Medium
+ * 
+ * Description:
+ * You are given a string s and an integer k. You can choose any character of the string and change it to any other
+ * uppercase English character. You can perform this operation at most k times. Return the length of the longest
+ * substring containing the same letter you can get after performing the above operations.
+ * 
+ * Approach:
+ * Sliding Window with Frequency Map. The condition `(window length) - (most frequent char count) <= k` ensures that
+ * the number of characters to replace is within the allowed limit k. We expand the window to the right and shrink from
+ * the left only when the condition is violated.
+ * 
+ * Time Complexity: O(N)
+ * Space Complexity: O(26) -> O(1)
+ */
 import java.util.HashMap;
 
 public class CharacterReplacement {
