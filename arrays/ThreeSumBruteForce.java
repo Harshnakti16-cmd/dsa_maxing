@@ -1,3 +1,7 @@
+/**
+ * Problem : 3sum
+ * 
+ */
 public class ThreeSumBruteForce {
 
     public static int[] threeSum(int[] arr) {
