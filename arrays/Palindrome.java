@@ -4,11 +4,14 @@
  * Difficulty: Easy
  * 
  * Description:
- * Determine if a string `s` is a palindrome, considering alphanumeric characters and ignoring cases.
+ * Determine if a string `s` is a palindrome, considering alphanumeric
+ * characters and ignoring cases.
  * 
  * Approach:
- * Two Pointers (`leftChar` and `rightChar`). Move inward comparing lowercased characters,
- * skipping non-alphanumeric characters until the pointers meet or a mismatch is found.
+ * Two Pointers (`leftChar` and `rightChar`). Move inward comparing lowercased
+ * characters,
+ * skipping non-alphanumeric characters until the pointers meet or a mismatch is
+ * found.
  * 
  * Time Complexity: O(N)
  * Space Complexity: O(1)
@@ -21,11 +24,11 @@ public class Palindrome {
 
         while (leftChar < rightChar) {
 
-            while (leftChar < rightChar && Character.isLetterOrDigit(s.charAt(leftChar))) {
+            while (leftChar < rightChar && !Character.isLetterOrDigit(s.charAt(leftChar))) {
                 leftChar++;
             }
 
-            while (leftChar < rightChar && Character.isLetterOrDigit(s.charAt(rightChar))) {
+            while (leftChar < rightChar && !Character.isLetterOrDigit(s.charAt(rightChar))) {
                 rightChar--;
             }
 
@@ -40,7 +43,7 @@ public class Palindrome {
 
     public static void main(String[] args) {
 
-        String s = "Madam";
+        String s = "Race a e-car";
         boolean result = isPalindrome(s);
         System.out.println(result);
     }
