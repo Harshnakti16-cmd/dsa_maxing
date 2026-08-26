@@ -1,3 +1,16 @@
+/**
+ * Problem: Top K Frequent Elements (LeetCode #347)
+ * Difficulty: Medium
+ * 
+ * Description:
+ * Given an integer array `arr` and an integer `k`, return the `k` most frequent elements.
+ * 
+ * Approach:
+ * Count frequencies using a `HashMap`. Use a Min-Heap (`PriorityQueue`) of size `k` to keep track of top frequent elements.
+ * 
+ * Time Complexity: O(N log K)
+ * Space Complexity: O(N)
+ */
 import java.util.HashMap;
 import java.util.PriorityQueue;
 
