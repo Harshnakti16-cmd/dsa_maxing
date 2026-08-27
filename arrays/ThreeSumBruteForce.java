@@ -1,6 +1,20 @@
 /**
- * Problem : 3sum
+ * Problem: 3Sum - Brute Force Approach (LeetCode #15)
+ * Difficulty: Medium
  * 
+ * Description:
+ * Given an integer array `arr`, find a triplet `[arr[i], arr[j], arr[k]]` such
+ * that
+ * `i != j`, `i != k`, and `j != k`, and `arr[i] + arr[j] + arr[k] == 0`.
+ * 
+ * Approach:
+ * Use 3 nested loops to check all possible combinations of three elements `(i,
+ * j, k)`.
+ * Return the first triplet that sums to 0, or `[-1, -1, -1]` if no such triplet
+ * exists.
+ * 
+ * Time Complexity: O(N^3)
+ * Space Complexity: O(1) auxiliary space
  */
 public class ThreeSumBruteForce {
 
