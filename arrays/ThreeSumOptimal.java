@@ -48,13 +48,14 @@ public class ThreeSumOptimal {
                     list.add(Arrays.asList(arr[i], arr[left], arr[right]));
                     left++;
                     right--;
-                }
-                while (left < right && arr[left] == arr[left + 1]) {
-                    left++;
 
-                }
-                while (left < right && arr[right] == arr[right + 1]) {
-                    right--;
+                    while (left < right && arr[left] == arr[left - 1]) {
+                        left++;
+
+                    }
+                    while (left < right && arr[right] == arr[right + 1]) {
+                        right--;
+                    }
                 }
             }
 
