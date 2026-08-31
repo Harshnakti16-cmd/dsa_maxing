@@ -1,6 +1,6 @@
-# Data Structures & Algorithms Practice Solutions
+# Data Structures & Algorithms Solved Problems Index
 
-A structured repository of LeetCode & Data Structures and Algorithms solutions implemented in **Java**, organized cleanly by topic.
+A structured repository of LeetCode & Data Structures and Algorithms solutions implemented in **Java**, organized by topic.
 
 ---
 
@@ -8,69 +8,125 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 
 ```text
 practice/
-├── 📂 arrays/          # Arrays, Two Pointers, Binary Search & Hashing Problems
-├── 📂 linkedlist/      # Singly Linked List Data Structure Problems
-└── 📂 stack/           # Stack Data Structure & Expression Evaluation Problems
+├── 📂 arrays/          # Arrays, Two Pointers, Binary Search & Prefix Sum Problems
+├── 📂 basics/          # Basic Math & Algorithmic Problems
+├── 📂 hashmap/         # HashMap & Frequency Counter Problems
+├── 📂 hashset/         # HashSet & Sliding Window Problems
+├── 📂 linkedlist/      # Linked List Data Structure Problems
+├── 📂 queue/           # Queue Data Structure Problems
+└── 📂 stack/           # Stack & Expression Evaluation Problems
 ```
 
 ---
 
-## 📚 Problem Solutions Index
+## 📚 Solved Problems Index
 
-### 1. 🟢 Arrays & Searching (`arrays/`)
+### 1. 📂 Arrays & Searching (`arrays/`)
 
-| # | Problem | LeetCode | Approach | Solution Link |
-|---|---------|----------|----------|---------------|
-| 1 | Binary Search | [#704](https://leetcode.com/problems/binary-search/) | Two Pointers (Divide & Conquer) | [BinarySearch.java](file:///c:/PW2/practice/arrays/BinarySearch.java) |
-| 2 | Best Time to Buy & Sell Stock | [#121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | One Pass Tracking Minimum Price | [BuySell1.java](file:///c:/PW2/practice/arrays/BuySell1.java) |
-| 3 | Buy & Sell Stock (with Buy/Sell Values) | [#121 Variant](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | One Pass Tracking Values & Max Profit | [BuySell2.java](file:///c:/PW2/practice/arrays/BuySell2.java) |
-| 4 | Contains Duplicate / Find Duplicate | [#217](https://leetcode.com/problems/contains-duplicate/) | HashSet Traversal | [DuplicateContaining.java](file:///c:/PW2/practice/arrays/DuplicateContaining.java) |
-| 5 | Merge Sorted Arrays | [#88 Variant](https://leetcode.com/problems/merge-sorted-array/) | Two Pointers Comparison | [MergeSortedArrays.java](file:///c:/PW2/practice/arrays/MergeSortedArrays.java) |
-| 6 | Valid Palindrome | [#125](https://leetcode.com/problems/valid-palindrome/) | Two Pointers Inward Scan | [Palindrome.java](file:///c:/PW2/practice/arrays/Palindrome.java) |
-| 7 | Remove Duplicates from Sorted Array | [#26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two Pointers In-Place Update | [RemoveDuplicates.java](file:///c:/PW2/practice/arrays/RemoveDuplicates.java) |
-| 8 | Two Sum (Brute Force) | [#1](https://leetcode.com/problems/two-sum/) | $O(N^2)$ Pair Checking | [TwoSumBruteForce.java](file:///c:/PW2/practice/arrays/TwoSumBruteForce.java) |
-| 9 | Two Sum (Optimal) | [#1](https://leetcode.com/problems/two-sum/) | $O(N)$ HashMap Complement Lookup | [TwoSumOptimal.java](file:///c:/PW2/practice/arrays/TwoSumOptimal.java) |
-| 10 | Valid Anagram | [#242](https://leetcode.com/problems/valid-anagram/) | HashMap Character Frequency Counter | [ValidAnagrams.java](file:///c:/PW2/practice/arrays/ValidAnagrams.java) |
-
----
-
-### 2. 🔵 Linked List (`linkedlist/`)
-
-| # | Problem | LeetCode | Approach | Solution Link |
-|---|---------|----------|----------|---------------|
-| 1 | Convert Binary in Linked List to Integer | [#1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Bit Shift / Multiply by 2 | [BinaryToInteger.java](file:///c:/PW2/practice/linkedlist/BinaryToInteger.java) |
-| 2 | Delete Node in a Linked List | [#237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Node Value Replacement | [DeleteNode.java](file:///c:/PW2/practice/linkedlist/DeleteNode.java) |
-| 3 | Linked List Implementation & Demo | Basics | Custom Node Linking & Traversal | [LinkedListDemo.java](file:///c:/PW2/practice/linkedlist/LinkedListDemo.java) |
-| 4 | Linked List Cycle Detection | [#141](https://leetcode.com/problems/linked-list-cycle/) | Floyd's Fast & Slow Pointers | [LinkedListHasCycle.java](file:///c:/PW2/practice/linkedlist/LinkedListHasCycle.java) |
-| 5 | Intersection of Two Linked Lists | [#160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Two Pointer Swapping Traversal | [LinkedListIntersection.java](file:///c:/PW2/practice/linkedlist/LinkedListIntersection.java) |
-| 6 | Middle of the Linked List | [#876](https://leetcode.com/problems/middle-of-the-linked-list/) | Fast & Slow Pointers | [LinkedListMiddle.java](file:///c:/PW2/practice/linkedlist/LinkedListMiddle.java) |
-| 7 | Remove Duplicates from Sorted List | [#83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Single Pass Pointer Skip | [LinkedListRemoveDuplicates.java](file:///c:/PW2/practice/linkedlist/LinkedListRemoveDuplicates.java) |
-| 8 | Remove Linked List Elements | [#203](https://leetcode.com/problems/remove-linked-list-elements/) | Dummy Head / Pointer Relinking | [LinkedListRemoveElements.java](file:///c:/PW2/practice/linkedlist/LinkedListRemoveElements.java) |
-| 9 | Merge Two Sorted Lists | [#21](https://leetcode.com/problems/merge-two-sorted-lists/) | Dummy Node Two Pointers | [MergeSortedList.java](file:///c:/PW2/practice/linkedlist/MergeSortedList.java) |
-| 10 | Remove Nth Node From End of List | [#19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Dummy Node + Two Pointer Offset | [RemoveNthElement.java](file:///c:/PW2/practice/linkedlist/RemoveNthElement.java) |
-| 11 | Reverse Linked List | [#206](https://leetcode.com/problems/reverse-linked-list/) | Iterative 3-Pointer Reversal | [ReversedLinkedList.java](file:///c:/PW2/practice/linkedlist/ReversedLinkedList.java) |
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1 | Two Sum (Brute Force) | Easy | [arrays/TwoSumBruteForce.java](arrays/TwoSumBruteForce.java) |
+| 1 | Two Sum (Optimal) | Easy | [arrays/TwoSumOptimal.java](arrays/TwoSumOptimal.java) |
+| 11 | Container With Most Water | Medium | [arrays/ContainerWithMostWater.java](arrays/ContainerWithMostWater.java) |
+| 15 | 3Sum (Brute Force) | Medium | [arrays/ThreeSumBruteForce.java](arrays/ThreeSumBruteForce.java) |
+| 15 | 3Sum (Optimal) | Medium | [arrays/ThreeSumOptimal.java](arrays/ThreeSumOptimal.java) |
+| 26 | Remove Duplicates from Sorted Array | Easy | [arrays/RemoveDuplicates.java](arrays/RemoveDuplicates.java) |
+| 26 | Remove Duplicates from Sorted Array (Two Pointers) | Easy | [arrays/ContainsDupliSortedArray.java](arrays/ContainsDupliSortedArray.java) |
+| 88 | Merge Sorted Array | Easy | [arrays/MergeSortedArray.java](arrays/MergeSortedArray.java) |
+| 88 | Merge Sorted Array (Two Pointers Variant) | Easy | [arrays/MergeSortedArrays.java](arrays/MergeSortedArrays.java) |
+| 121 | Best Time to Buy and Sell Stock | Easy | [arrays/BuySell1.java](arrays/BuySell1.java) |
+| 121 | Best Time to Buy and Sell Stock (Buy/Sell Details) | Easy | [arrays/BuySell2.java](arrays/BuySell2.java) |
+| 125 | Valid Palindrome | Easy | [arrays/Palindrome.java](arrays/Palindrome.java) |
+| 136 | Single Number | Easy | [arrays/SingleNumber.java](arrays/SingleNumber.java) |
+| 167 | Two Sum II - Input Array Is Sorted | Medium | [arrays/TwoSum2.java](arrays/TwoSum2.java) |
+| 169 | Majority Element | Easy | [arrays/MajorityElement.java](arrays/MajorityElement.java) |
+| 217 | Contains Duplicate / Find Duplicate | Easy | [arrays/DuplicateContaining.java](arrays/DuplicateContaining.java) |
+| 238 | Product of Array Except Self | Medium | [arrays/ProductOfArrayExceptSelf.java](arrays/ProductOfArrayExceptSelf.java) |
+| 242 | Valid Anagram | Easy | [arrays/ValidAnagrams.java](arrays/ValidAnagrams.java) |
+| 283 | Move Zeroes | Easy | [arrays/MoveZeros.java](arrays/MoveZeros.java) |
+| 704 | Binary Search | Easy | [arrays/BinarySearch.java](arrays/BinarySearch.java) |
 
 ---
 
-### 3. 🟣 Stack (`stack/`)
+### 2. 📂 HashMap (`hashmap/`)
 
-| # | Problem | LeetCode | Approach | Solution Link |
-|---|---------|----------|----------|---------------|
-| 1 | Evaluate Reverse Polish Notation | [#150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack Postfix Operand Operator Evaluation | [StackEvaluate.java](file:///c:/PW2/practice/stack/StackEvaluate.java) |
-| 2 | Min Stack (Get Minimum in O(1)) | [#155](https://leetcode.com/problems/min-stack/) | Auxiliary Min Tracker Stack | [StackGetMin.java](file:///c:/PW2/practice/stack/StackGetMin.java) |
-| 3 | Valid Parentheses | [#20](https://leetcode.com/problems/valid-parentheses/) | Stack Bracket Matching | [ValidParanthesis.java](file:///c:/PW2/practice/stack/ValidParanthesis.java) |
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 49 | Group Anagrams | Medium | [hashmap/GroupAnagrams.java](hashmap/GroupAnagrams.java) |
+| 205 | Isomorphic Strings | Easy | [hashmap/Isomorphic.java](hashmap/Isomorphic.java) |
+| 217 | Contains Duplicate | Easy | [hashmap/ContainsDuplicate.java](hashmap/ContainsDuplicate.java) |
+| 219 | Contains Duplicate II | Easy | [hashmap/DuplicateAtDistance.java](hashmap/DuplicateAtDistance.java) |
+| 242 | Valid Anagram | Easy | [hashmap/ValidAnagram.java](hashmap/ValidAnagram.java) |
+| 347 | Top K Frequent Elements | Medium | [hashmap/TopKFrequentElement.java](hashmap/TopKFrequentElement.java) |
+| 424 | Longest Repeating Character Replacement | Medium | [hashmap/CharacterReplacement.java](hashmap/CharacterReplacement.java) |
+
+---
+
+### 3. 📂 HashSet (`hashset/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 3 | Longest Substring Without Repeating Characters | Medium | [hashset/LongestSubstring.java](hashset/LongestSubstring.java) |
+| 217 | Contains Duplicate | Easy | [hashset/ContainsDuplicate.java](hashset/ContainsDuplicate.java) |
+
+---
+
+### 4. 📂 Linked List (`linkedlist/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 19 | Remove Nth Node From End of List | Medium | [linkedlist/RemoveNthElement.java](linkedlist/RemoveNthElement.java) |
+| 21 | Merge Two Sorted Lists | Easy | [linkedlist/MergeSortedList.java](linkedlist/MergeSortedList.java) |
+| 83 | Remove Duplicates from Sorted List | Easy | [linkedlist/LinkedListRemoveDuplicates.java](linkedlist/LinkedListRemoveDuplicates.java) |
+| 141 | Linked List Cycle | Easy | [linkedlist/LinkedListHasCycle.java](linkedlist/LinkedListHasCycle.java) |
+| 160 | Intersection of Two Linked Lists | Easy | [linkedlist/LinkedListIntersection.java](linkedlist/LinkedListIntersection.java) |
+| 203 | Remove Linked List Elements | Easy | [linkedlist/LinkedListRemoveElements.java](linkedlist/LinkedListRemoveElements.java) |
+| 206 | Reverse Linked List | Easy | [linkedlist/ReversedLinkedList.java](linkedlist/ReversedLinkedList.java) |
+| 237 | Delete Node in a Linked List | Medium | [linkedlist/DeleteNode.java](linkedlist/DeleteNode.java) |
+| 876 | Middle of the Linked List | Easy | [linkedlist/LinkedListMiddle.java](linkedlist/LinkedListMiddle.java) |
+| 1290 | Convert Binary Number in a Linked List to Integer | Easy | [linkedlist/BinaryToInteger.java](linkedlist/BinaryToInteger.java) |
+| - | Linked List Implementation & Demo | Easy | [linkedlist/LinkedListDemo.java](linkedlist/LinkedListDemo.java) |
+
+---
+
+### 5. 📂 Queue (`queue/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 225 | Implement Stack using Queues | Easy | [queue/QueueStack.java](queue/QueueStack.java) |
+| 933 | Number of Recent Calls | Easy | [queue/RecentCounter.java](queue/RecentCounter.java) |
+
+---
+
+### 6. 📂 Stack (`stack/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 20 | Valid Parentheses | Easy | [stack/ValidParanthesis.java](stack/ValidParanthesis.java) |
+| 150 | Evaluate Reverse Polish Notation | Medium | [stack/StackEvaluate.java](stack/StackEvaluate.java) |
+| 155 | Min Stack | Medium | [stack/StackGetMin.java](stack/StackGetMin.java) |
+| 232 | Implement Queue using Stacks | Easy | [stack/StackQueue.java](stack/StackQueue.java) |
+
+---
+
+### 7. 📂 Basic Algorithms (`basics/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| - | Factorial of a Number | Easy | [basics/factorial.java](basics/factorial.java) |
+| - | Fibonacci Series Generator | Easy | [basics/fibonacci.java](basics/fibonacci.java) |
+| - | Linear Search | Easy | [basics/linearSearch.java](basics/linearSearch.java) |
+| 9 | Palindrome Number | Easy | [basics/PalindromeNumber.java](basics/PalindromeNumber.java) |
+| 125 | Valid Palindrome String | Easy | [basics/palindromeString.java](basics/palindromeString.java) |
 
 ---
 
 ## 🛠️ How to Run
 
-Compilation for any package:
+Compile and run any Java file from the repository root:
 
 ```bash
-# Compile and run StackEvaluate
-javac stack/StackEvaluate.java
-java stack.StackEvaluate
-
-# Compile all files in a package
-javac arrays/*.java
+# Example: Compile & run ProductOfArrayExceptSelf
+javac arrays/ProductOfArrayExceptSelf.java
+java -cp arrays ProductOfArrayExceptSelf
 ```
