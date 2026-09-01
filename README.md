@@ -43,6 +43,7 @@ practice/
 | 217 | Contains Duplicate / Find Duplicate | Easy | [arrays/DuplicateContaining.java](arrays/DuplicateContaining.java) |
 | 238 | Product of Array Except Self | Medium | [arrays/ProductOfArrayExceptSelf.java](arrays/ProductOfArrayExceptSelf.java) |
 | 242 | Valid Anagram | Easy | [arrays/ValidAnagrams.java](arrays/ValidAnagrams.java) |
+| 268 | Missing Number | Easy | [arrays/MissingNumber.java](arrays/MissingNumber.java) |
 | 283 | Move Zeroes | Easy | [arrays/MoveZeros.java](arrays/MoveZeros.java) |
 | 704 | Binary Search | Easy | [arrays/BinarySearch.java](arrays/BinarySearch.java) |
 
