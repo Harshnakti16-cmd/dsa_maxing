@@ -68,6 +68,7 @@ practice/
 |---|---------|------------|----------|
 | 3 | Longest Substring Without Repeating Characters | Medium | [hashset/LongestSubstring.java](hashset/LongestSubstring.java) |
 | 217 | Contains Duplicate | Easy | [hashset/ContainsDuplicate.java](hashset/ContainsDuplicate.java) |
+| 349 | Intersection of Two Arrays | Easy | [hashset/IntersectionOfArray.java](hashset/IntersectionOfArray.java) |
 
 ---
 
