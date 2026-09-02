@@ -116,6 +116,7 @@ practice/
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 58 | Length of Last Word | Easy | [strings/LengthOfLastWord.java](strings/LengthOfLastWord.java) |
 | 125 | Valid Palindrome | Easy | [strings/Palindrome.java](strings/Palindrome.java) |
 | 125 | Valid Palindrome String | Easy | [strings/palindromeString.java](strings/palindromeString.java) |
 
