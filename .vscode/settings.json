@@ -6,6 +6,7 @@
         "linkedlist",
         "hashmap",
         "hashset",
-        "basics"
+        "basics",
+        "dynamic_programming"
     ]
 }
