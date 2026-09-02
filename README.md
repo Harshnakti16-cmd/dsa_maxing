@@ -7,16 +7,17 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 ## 📁 Repository Structure
 
 ```text
-practice/
-├── 📂 arrays/          # Arrays, Two Pointers, Binary Search & Prefix Sum Problems
-├── 📂 basics/          # Basic Math & Algorithmic Problems
-├── 📂 hashmap/         # HashMap & Frequency Counter Problems
-├── 📂 hashset/         # HashSet & Sliding Window Problems
-├── 📂 linkedlist/      # Linked List Data Structure Problems
-├── 📂 queue/           # Queue Data Structure Problems
-├── 📂 stack/           # Stack & Expression Evaluation Problems
-└── 📂 strings/         # Pure String & Two-Pointer Problems
-```
+ practice/
+ ├── 📂 arrays/                  # Arrays, Two Pointers, Binary Search & Prefix Sum Problems
+ ├── 📂 basics/                  # Basic Math & Algorithmic Problems
+ ├── 📂 dynamic_programming.java/ # Dynamic Programming Problems
+ ├── 📂 hashmap/                 # HashMap & Frequency Counter Problems
+ ├── 📂 hashset/                 # HashSet & Sliding Window Problems
+ ├── 📂 linkedlist/              # Linked List Data Structure Problems
+ ├── 📂 queue/                   # Queue Data Structure Problems
+ ├── 📂 stack/                   # Stack & Expression Evaluation Problems
+ └── 📂 strings/                 # Pure String & Two-Pointer Problems
+ ```
 
 ---
 
@@ -130,6 +131,14 @@ practice/
 | - | Fibonacci Series Generator | Easy | [basics/fibonacci.java](basics/fibonacci.java) |
 | - | Linear Search | Easy | [basics/linearSearch.java](basics/linearSearch.java) |
 | 9 | Palindrome Number | Easy | [basics/PalindromeNumber.java](basics/PalindromeNumber.java) |
+
+---
+
+### 9. 📂 Dynamic Programming (`dynamic_programming.java/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 70 | Climbing Stairs (Climbing Chairs) | Easy | [dynamic_programming.java/ClimbingChairs.java](dynamic_programming.java/ClimbingChairs.java) |
 
 ---
 
