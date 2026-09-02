@@ -14,7 +14,8 @@ practice/
 ├── 📂 hashset/         # HashSet & Sliding Window Problems
 ├── 📂 linkedlist/      # Linked List Data Structure Problems
 ├── 📂 queue/           # Queue Data Structure Problems
-└── 📂 stack/           # Stack & Expression Evaluation Problems
+├── 📂 stack/           # Stack & Expression Evaluation Problems
+└── 📂 strings/         # Pure String & Two-Pointer Problems
 ```
 
 ---
@@ -36,7 +37,7 @@ practice/
 | 88 | Merge Sorted Array (Two Pointers Variant) | Easy | [arrays/MergeSortedArrays.java](arrays/MergeSortedArrays.java) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [arrays/BuySell1.java](arrays/BuySell1.java) |
 | 121 | Best Time to Buy and Sell Stock (Buy/Sell Details) | Easy | [arrays/BuySell2.java](arrays/BuySell2.java) |
-| 125 | Valid Palindrome | Easy | [arrays/Palindrome.java](arrays/Palindrome.java) |
+| 125 | Valid Palindrome | Easy | [strings/Palindrome.java](strings/Palindrome.java) |
 | 136 | Single Number | Easy | [arrays/SingleNumber.java](arrays/SingleNumber.java) |
 | 167 | Two Sum II - Input Array Is Sorted | Medium | [arrays/TwoSum2.java](arrays/TwoSum2.java) |
 | 169 | Majority Element | Easy | [arrays/MajorityElement.java](arrays/MajorityElement.java) |
@@ -111,7 +112,16 @@ practice/
 
 ---
 
-### 7. 📂 Basic Algorithms (`basics/`)
+### 7. 📂 Strings (`strings/`)
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 125 | Valid Palindrome | Easy | [strings/Palindrome.java](strings/Palindrome.java) |
+| 125 | Valid Palindrome String | Easy | [strings/palindromeString.java](strings/palindromeString.java) |
+
+---
+
+### 8. 📂 Basic Algorithms (`basics/`)
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
@@ -119,7 +129,6 @@ practice/
 | - | Fibonacci Series Generator | Easy | [basics/fibonacci.java](basics/fibonacci.java) |
 | - | Linear Search | Easy | [basics/linearSearch.java](basics/linearSearch.java) |
 | 9 | Palindrome Number | Easy | [basics/PalindromeNumber.java](basics/PalindromeNumber.java) |
-| 125 | Valid Palindrome String | Easy | [basics/palindromeString.java](basics/palindromeString.java) |
 
 ---
 
