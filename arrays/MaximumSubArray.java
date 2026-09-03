@@ -1,3 +1,25 @@
+/**
+ * LeetCode 53: Maximum Subarray
+ * Difficulty: Medium
+ * 
+ * Problem Description:
+ * Given an integer array `nums`, find the contiguous subarray (containing at
+ * least
+ * one number) which has the largest sum and return its sum.
+ * 
+ * Approach: Kadane's Algorithm
+ * - `currentSum`: Tracks the sum of the subarray ending at the current
+ * position.
+ * - `maxSum`: Tracks the overall maximum sum found so far.
+ * - For each element, we decide whether to extend the previous subarray
+ * (`currentSum + arr[i]`) or start a new
+ * subarray (`arr[i]`)
+ * - If `currentSum` becomes negative, it's better to start a new subarray from
+ * the next element
+ * 
+ * Time Complexity: O(n)
+ * Space Complexity: O(1)
+ */
 public class MaximumSubArray {
 
     public static int plus(int[] arr) {
