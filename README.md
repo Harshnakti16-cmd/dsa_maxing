@@ -34,6 +34,7 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 | 15 | 3Sum (Optimal) | Medium | [arrays/ThreeSumOptimal.java](arrays/ThreeSumOptimal.java) |
 | 26 | Remove Duplicates from Sorted Array | Easy | [arrays/RemoveDuplicates.java](arrays/RemoveDuplicates.java) |
 | 26 | Remove Duplicates from Sorted Array (Two Pointers) | Easy | [arrays/ContainsDupliSortedArray.java](arrays/ContainsDupliSortedArray.java) |
+| 66 | Plus One | Easy | [arrays/PlusOne.java](arrays/PlusOne.java) |
 | 88 | Merge Sorted Array | Easy | [arrays/MergeSortedArray.java](arrays/MergeSortedArray.java) |
 | 88 | Merge Sorted Array (Two Pointers Variant) | Easy | [arrays/MergeSortedArrays.java](arrays/MergeSortedArrays.java) |
 | 121 | Best Time to Buy and Sell Stock | Easy | [arrays/BuySell1.java](arrays/BuySell1.java) |
