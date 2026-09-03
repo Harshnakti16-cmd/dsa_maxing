@@ -36,6 +36,7 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 | 26 | Remove Duplicates from Sorted Array (Two Pointers) | Easy | [arrays/ContainsDupliSortedArray.java](arrays/ContainsDupliSortedArray.java) |
 | 35 | Search Insert Position | Easy | [arrays/SearchInsertPosition.java](arrays/SearchInsertPosition.java) |
 | 53 | Maximum Subarray | Medium | [arrays/MaximumSubArray.java](arrays/MaximumSubArray.java) |
+| 56 | Merge Intervals | Medium | [arrays/MergeIntervals.java](arrays/MergeIntervals.java) |
 | 66 | Plus One | Easy | [arrays/PlusOne.java](arrays/PlusOne.java) |
 | 88 | Merge Sorted Array | Easy | [arrays/MergeSortedArray.java](arrays/MergeSortedArray.java) |
 | 88 | Merge Sorted Array (Two Pointers Variant) | Easy | [arrays/MergeSortedArrays.java](arrays/MergeSortedArrays.java) |
