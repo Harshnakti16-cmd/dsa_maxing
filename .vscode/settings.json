@@ -7,6 +7,7 @@
         "hashmap",
         "hashset",
         "basics",
-        "dynamic_programming"
+        "dynamic_programming",
+        "strings"
     ]
 }
