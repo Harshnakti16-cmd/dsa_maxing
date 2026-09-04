@@ -125,6 +125,7 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 | 125 | Valid Palindrome | Easy | [strings/Palindrome.java](strings/Palindrome.java) |
 | 125 | Valid Palindrome String | Easy | [strings/palindromeString.java](strings/palindromeString.java) |
 | 344 | Reverse String | Easy | [strings/ReverseString.java](strings/ReverseString.java) |
+| 387 | First Unique Character in a String | Easy | [strings/FirstUniqueCharacter.java](strings/FirstUniqueCharacter.java) |
 | 443 | String Compression | Medium | [strings/StringCompression.java](strings/StringCompression.java) |
 
 ---

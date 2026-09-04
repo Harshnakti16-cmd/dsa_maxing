@@ -1,3 +1,23 @@
+
+/**
+ * LeetCode 387: First Unique Character in a String
+ * 
+ * Problem Description:
+ * Given a string s, find the first non-repeating character in it and return its
+ * index.
+ * If it does not exist, return -1.
+ * 
+ * Approach:
+ * Frequency Count using HashMap / Hash Table -
+ * 1. First pass: Store the frequency of each character in a HashMap.
+ * 2. Second pass: Iterate through the string again and return the index of the
+ * first character with a frequency of 1.
+ * 
+ * Time Complexity: O(N) where N is the length of string s.
+ * Space Complexity: O(1) auxiliary space since the character set is bounded (at
+ * most 26 lowercase English letters).
+ */
+
 import java.util.HashMap;
 
 public class FirstUniqueCharacter {
