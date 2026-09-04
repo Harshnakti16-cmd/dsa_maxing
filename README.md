@@ -124,6 +124,8 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 | 58 | Length of Last Word | Easy | [strings/LengthOfLastWord.java](strings/LengthOfLastWord.java) |
 | 125 | Valid Palindrome | Easy | [strings/Palindrome.java](strings/Palindrome.java) |
 | 125 | Valid Palindrome String | Easy | [strings/palindromeString.java](strings/palindromeString.java) |
+| 344 | Reverse String | Easy | [strings/ReverseString.java](strings/ReverseString.java) |
+| 443 | String Compression | Medium | [strings/StringCompression.java](strings/StringCompression.java) |
 
 ---
 
