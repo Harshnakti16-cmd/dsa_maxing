@@ -37,6 +37,7 @@ A structured repository of LeetCode & Data Structures and Algorithms solutions i
 | 35 | Search Insert Position | Easy | [arrays/SearchInsertPosition.java](arrays/SearchInsertPosition.java) |
 | 53 | Maximum Subarray | Medium | [arrays/MaximumSubArray.java](arrays/MaximumSubArray.java) |
 | 56 | Merge Intervals | Medium | [arrays/MergeIntervals.java](arrays/MergeIntervals.java) |
+| 57 | Insert Interval | Medium | [arrays/InsertIntervals.java](arrays/InsertIntervals.java) |
 | 66 | Plus One | Easy | [arrays/PlusOne.java](arrays/PlusOne.java) |
 | 88 | Merge Sorted Array | Easy | [arrays/MergeSortedArray.java](arrays/MergeSortedArray.java) |
 | 88 | Merge Sorted Array (Two Pointers Variant) | Easy | [arrays/MergeSortedArrays.java](arrays/MergeSortedArrays.java) |

@@ -1,5 +1,29 @@
 import java.util.*;
 
+/**
+ * LeetCode 57: Insert Interval
+ * Difficulty: Medium
+ * 
+ * Problem Description:
+ * You are given an array of non-overlapping intervals intervals where intervals[i] = [start_i, end_i]
+ * sorted in ascending order by start_i. You are also given an interval newInterval = [start, end]
+ * that represents the start and end of another interval.
+ * 
+ * Insert newInterval into intervals such that intervals is still sorted in ascending order by
+ * start_i and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
+ * Return intervals after the insertion.
+ * 
+ * Approach:
+ * 1. Add all intervals ending before newInterval starts (no overlap).
+ * 2. Merge all overlapping intervals by expanding newInterval:
+ *    - newInterval[0] = Math.min(newInterval[0], intervals[i][0])
+ *    - newInterval[1] = Math.max(newInterval[1], intervals[i][1])
+ * 3. Add the merged newInterval.
+ * 4. Add all remaining intervals that come after newInterval.
+ * 
+ * Time Complexity: O(N) where N is the number of intervals.
+ * Space Complexity: O(N) to store the result list.
+ */
 public class InsertIntervals {
 
     public static int[][] insertIntervals(int[][] intervals, int[] newInterval) {
